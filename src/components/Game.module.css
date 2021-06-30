@@ -1,0 +1,38 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gameBoard {
+  background-color: var(--color1);
+  border: 6px solid var(--color2);
+  border-radius: 20px;
+  margin-top: 3vmin;
+  padding: 0.5vmin;
+  width: 50vmin;
+  height: 50vmin;
+  display: flex;
+  flex-direction: column;
+}
+
+.controls {
+  padding: 1vmin;
+  display: flex;
+  flex-direction: row;
+}
+
+.controls > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls1 {
+  justify-content: center;
+}
+
+.controls3 {
+  justify-content: center;
+}
